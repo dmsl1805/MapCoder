@@ -7,7 +7,7 @@ target 'MapCoder' do
 
   # Pods for MapCoder
   pod 'Mapbox-iOS-SDK'
-  pod 'PokeModal'
+  pod 'PokeModal’, :git => ‘https://github.com/dmsl1805/PokeModal.git’
   pod 'MapboxGeocoder.swift', :git => 'https://github.com/mapbox/MapboxGeocoder.swift.git', :tag => 'swift3'
 end
 
